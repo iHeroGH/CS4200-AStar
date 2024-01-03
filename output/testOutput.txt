@@ -1,0 +1,218 @@
+CS4200 Project 1
+Select Run Type:
+[1] Single (random or manual input)
+[2] Multi (requires filepath)
+2
+Files should contain lines in the following format: (the numbers 0-8 in any order) (1 or 2).
+Empty lines and lines starting with // will be ignored.
+Enter a filepath:
+input\testInput.txt
+Puzzle:
+[1, 2, 5]
+[3, 4, 8]
+[6, 7, 0]
+
+Step: 1
+[1, 2, 5]
+[3, 4, 0]
+[6, 7, 8]
+
+Step: 2
+[1, 2, 0]
+[3, 4, 5]
+[6, 7, 8]
+
+Step: 3
+[1, 0, 2]
+[3, 4, 5]
+[6, 7, 8]
+
+Step: 4
+[0, 1, 2]
+[3, 4, 5]
+[6, 7, 8]
+
+Num Steps: 4
+H1 Search Cost: 7
+H1 Duration: 1.2461ms
+H2 Search Cost: 7
+H2 Duration: 0.3189ms
+
+Puzzle:
+[1, 4, 2]
+[6, 0, 8]
+[7, 5, 3]
+
+Step: 1
+[1, 4, 2]
+[6, 5, 8]
+[7, 0, 3]
+
+Step: 2
+[1, 4, 2]
+[6, 5, 8]
+[7, 3, 0]
+
+Step: 3
+[1, 4, 2]
+[6, 5, 0]
+[7, 3, 8]
+
+Step: 4
+[1, 4, 2]
+[6, 0, 5]
+[7, 3, 8]
+
+Step: 5
+[1, 4, 2]
+[6, 3, 5]
+[7, 0, 8]
+
+Step: 6
+[1, 4, 2]
+[6, 3, 5]
+[0, 7, 8]
+
+Step: 7
+[1, 4, 2]
+[0, 3, 5]
+[6, 7, 8]
+
+Step: 8
+[1, 4, 2]
+[3, 0, 5]
+[6, 7, 8]
+
+Step: 9
+[1, 0, 2]
+[3, 4, 5]
+[6, 7, 8]
+
+Step: 10
+[0, 1, 2]
+[3, 4, 5]
+[6, 7, 8]
+
+Num Steps: 10
+H1 Search Cost: 74
+H1 Duration: 1.7778ms
+H2 Search Cost: 31
+H2 Duration: 2.1881ms
+
+Puzzle:
+[2, 5, 8]
+[6, 0, 3]
+[1, 7, 4]
+
+Step: 1
+[2, 5, 8]
+[6, 3, 0]
+[1, 7, 4]
+
+Step: 2
+[2, 5, 8]
+[6, 3, 4]
+[1, 7, 0]
+
+Step: 3
+[2, 5, 8]
+[6, 3, 4]
+[1, 0, 7]
+
+Step: 4
+[2, 5, 8]
+[6, 3, 4]
+[0, 1, 7]
+
+Step: 5
+[2, 5, 8]
+[0, 3, 4]
+[6, 1, 7]
+
+Step: 6
+[2, 5, 8]
+[3, 0, 4]
+[6, 1, 7]
+
+Step: 7
+[2, 5, 8]
+[3, 4, 0]
+[6, 1, 7]
+
+Step: 8
+[2, 5, 0]
+[3, 4, 8]
+[6, 1, 7]
+
+Step: 9
+[2, 0, 5]
+[3, 4, 8]
+[6, 1, 7]
+
+Step: 10
+[0, 2, 5]
+[3, 4, 8]
+[6, 1, 7]
+
+Step: 11
+[3, 2, 5]
+[0, 4, 8]
+[6, 1, 7]
+
+Step: 12
+[3, 2, 5]
+[4, 0, 8]
+[6, 1, 7]
+
+Step: 13
+[3, 2, 5]
+[4, 1, 8]
+[6, 0, 7]
+
+Step: 14
+[3, 2, 5]
+[4, 1, 8]
+[6, 7, 0]
+
+Step: 15
+[3, 2, 5]
+[4, 1, 0]
+[6, 7, 8]
+
+Step: 16
+[3, 2, 0]
+[4, 1, 5]
+[6, 7, 8]
+
+Step: 17
+[3, 0, 2]
+[4, 1, 5]
+[6, 7, 8]
+
+Step: 18
+[3, 1, 2]
+[4, 0, 5]
+[6, 7, 8]
+
+Step: 19
+[3, 1, 2]
+[0, 4, 5]
+[6, 7, 8]
+
+Step: 20
+[0, 1, 2]
+[3, 4, 5]
+[6, 7, 8]
+
+Num Steps: 20
+H1 Search Cost: 5810
+H1 Duration: 38.6306ms
+H2 Search Cost: 387
+H2 Duration: 4.1183ms
+
+
+Depth: 4, numTests: 1.0, h1Cost: 7.0, h1Duration: 1.2461, h2Cost: 7.0, h2Duration: 0.3189,
+
+Depth: 20, numTests: 1.0, h1Cost: 5810.0, h1Duration: 38.6306, h2Cost: 387.0, h2Duration: 4.1183,
+
+Depth: 10, numTests: 1.0, h1Cost: 74.0, h1Duration: 1.7778, h2Cost: 31.0, h2Duration: 2.1881,
