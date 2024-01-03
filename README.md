@@ -1,4 +1,4 @@
-# CS4200 Project 1 - README
+# CS4200 AStar
 
 This Java rpgoram is designed to solve the 8-puzzle problem using the A* search
 algorithm and 2 heuristic functions. The program can be run in two modes:
