@@ -29,20 +29,20 @@ Given a filepath, we read its data and calculate joint statistics for all the
 inputs found.
 
 # Input Format
+  
+// Comments are ignored  
+(empty lines are ignored)  
+(A permutation from 0-9) (1 or 2)  
 
-// Comments are ignored
-(empty lines are ignored)
-(A permutation from 0-9) (1 or 2)
-
-EX:
-// 4
-125348670 1
-
-// 10
-142608753 2
-
-// 20
-258603174 2
+EX:  
+// 4  
+125348670 1  
+  
+// 10  
+142608753 2  
+  
+// 20  
+258603174 2  
 
 The permutation will serve as the puzzle to solve and the single digit will
 determine which heuristic to use
